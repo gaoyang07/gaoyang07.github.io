@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://gaoyang07.github.io/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://gaoyang07.github.io/zh-cn/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gaoyang07.github.io/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gaoyang07.github.io/blogs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://gaoyang07.github.io/zh-cn/blogs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gaoyang07.github.io/blogs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gaoyang07.github.io/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://gaoyang07.github.io/zh-cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gaoyang07.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gaoyang07.github.io/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://gaoyang07.github.io/zh-cn/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gaoyang07.github.io/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gaoyang07.github.io/snippets/first/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gaoyang07.github.io/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://gaoyang07.github.io/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gaoyang07.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gaoyang07.github.io/research/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://gaoyang07.github.io/zh-cn/research/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gaoyang07.github.io/research/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gaoyang07.github.io/snippets/second/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gaoyang07.github.io/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://gaoyang07.github.io/zh-cn/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gaoyang07.github.io/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://gaoyang07.github.io/snippets/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gaoyang07.github.io/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://gaoyang07.github.io/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://gaoyang07.github.io/tags/"
+                />
+  </url>
+  
+</urlset>

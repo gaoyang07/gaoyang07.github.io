@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home</title>
+    <link>https://gaoyang07.github.io/</link>
+    <description>Recent content on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://gaoyang07.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>https://gaoyang07.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaoyang07.github.io/about/</guid>
+      <description>To be continued</description>
+    </item>
+    
+    <item>
+      <title>Blogs</title>
+      <link>https://gaoyang07.github.io/blogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaoyang07.github.io/blogs/</guid>
+      <description>To be continued</description>
+    </item>
+    
+    <item>
+      <title>Contact me</title>
+      <link>https://gaoyang07.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaoyang07.github.io/contact/</guid>
+      <description> Gmail: Gary1546308416AL@gmail.com QQ E-mail: gyang2140@qq.com School E-mail: gy7@mail.nwpu.edu.cn  </description>
+    </item>
+    
+    <item>
+      <title>First snippet</title>
+      <link>https://gaoyang07.github.io/snippets/first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaoyang07.github.io/snippets/first/</guid>
+      <description>This content is in snippets/first/index.md
+pwd </description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://gaoyang07.github.io/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaoyang07.github.io/research/</guid>
+      <description>Conference publications  Ning Wang, Yang Gao, Hao Chen, Peng Wang, Zhi Tian, Chunhua Shen, NAS-FCOS: Fast Neural Architecture Search for Object Detection, In: Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2020.  Journal publications Projects </description>
+    </item>
+    
+    <item>
+      <title>Second snippet</title>
+      <link>https://gaoyang07.github.io/snippets/second/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaoyang07.github.io/snippets/second/</guid>
+      <description>This content is in snippets/second/index.md
+ls -la </description>
+    </item>
+    
+  </channel>
+</rss>

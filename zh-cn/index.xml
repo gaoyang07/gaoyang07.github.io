@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>主页</title>
+    <link>https://gaoyang07.github.io/zh-cn/</link>
+    <description>Recent content on 主页</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://gaoyang07.github.io/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于我</title>
+      <link>https://gaoyang07.github.io/zh-cn/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaoyang07.github.io/zh-cn/about/</guid>
+      <description>待补充</description>
+    </item>
+    
+    <item>
+      <title>博客</title>
+      <link>https://gaoyang07.github.io/zh-cn/blogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaoyang07.github.io/zh-cn/blogs/</guid>
+      <description>待补充</description>
+    </item>
+    
+    <item>
+      <title>研究</title>
+      <link>https://gaoyang07.github.io/zh-cn/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaoyang07.github.io/zh-cn/research/</guid>
+      <description>会议论文  Ning Wang, Yang Gao, Hao Chen, Peng Wang, Zhi Tian, Chunhua Shen, NAS-FCOS: Fast Neural Architecture Search for Object Detection, In: Proc. IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2020.  期刊论文 项目 </description>
+    </item>
+    
+    <item>
+      <title>联系我</title>
+      <link>https://gaoyang07.github.io/zh-cn/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gaoyang07.github.io/zh-cn/contact/</guid>
+      <description> 谷歌邮箱: Gary1546308416AL@gmail.com QQ邮箱: gyang2140@qq.com 学校邮箱: gy7@mail.nwpu.edu.cn  </description>
+    </item>
+    
+  </channel>
+</rss>

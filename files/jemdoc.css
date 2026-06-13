@@ -229,6 +229,11 @@ li {
 	margin-top:0.9em;
 }
 
+img.company-logo {
+	width: 2.4em;
+	vertical-align: middle;
+}
+
 ol {
 	list-style-position: outside;
 	list-style-type: decimal;

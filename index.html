@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
 <!-- Google tag (gtag.js) -->
@@ -10,9 +11,10 @@
 
   gtag('config', 'G-EWB73JXBN5');
 </script>
-	
+
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<meta name="description" content="Homepage of Gary">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Yang Gao (高扬), Member of Technical Staff at MOSI, working on large-scale training and inference systems for multimodal foundation models.">
 	<link rel="stylesheet" href="./files/jemdoc.css" type="text/css">
 	<title>Yang Gao's Homepage</title>
 </head>
@@ -20,170 +22,301 @@
 
 <body>
 
-<div id="layout-content" style="margin-top:25px">
+<div id="layout-content">
 
-<table><tbody><tr>
-    <td width="670">
-        <div id="toptitle"><h1>Yang Gao (高扬)&nbsp;</h1></div>
-        <h3>Technical Staff</h3>
-        <p>
-            Mosi Intelligence (MOSI) <br>
-            Shanghai, China. <br>
-	    
-            WeChat: garythevoid <br>
-            Email: <a href="mailto:gaoy2140@gmail.com">gaoy2140@gmail.com</a> <br>
-		
-            <a href="https://github.com/gaoyang07">[Github]</a>
-            <a href="https://scholar.google.com/citations?user=D1pRedQAAAAJ&hl">[Google Scholar]</a>
-            <a href="https://www.linkedin.com/in/yang-gao-93a902381/">[LinkedIn]</a>
-            <a href="https://x.com/YangGao07">[X]</a>
-            <a href="https://www.zhihu.com/people/garyang">[知乎]</a>
+<figure class="hero">
+    <img src="./files/moss_demo.jpg"
+         srcset="./files/moss_demo_1280.jpg 1280w, ./files/moss_demo.jpg 1920w"
+         sizes="(max-width: 860px) 100vw, 828px"
+         width="1920" height="1080"
+         alt="The word MOSS in giant cream-colored letters on a yellow backdrop, with an elephant in a cowboy hat, a felt doll holding a red rose, and a python wearing sunglasses">
+    <figcaption>by <a href="https://openmoss.ai/MOSS-Image/">MOSS-Image</a></figcaption>
+</figure>
 
+
+<div class="profile">
+    <div>
+        <h1>Yang Gao <span class="name-zh">高扬</span></h1>
+        <p class="profile-role">
+            Member of Technical Staff<br>
+            Mosi Intelligence (MOSI), Shanghai, China
+        </p>
+        <p class="profile-contact">
+            Email: <a href="mailto:gaoy2140@gmail.com">gaoy2140@gmail.com</a><br>
+            WeChat: garythevoid
+        </p>
+        <p class="profile-links">
+            <a href="https://github.com/gaoyang07">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=D1pRedQAAAAJ&hl">Google Scholar</a>
+            <a href="https://www.linkedin.com/in/yang-gao-93a902381/">LinkedIn</a>
+            <a href="https://x.com/YangGao07">X</a>
+            <a href="https://www.zhihu.com/people/garyang">知乎</a>
         </p>
         <!-- <p><a href="./files/YangGao_Resume.pdf">[Resume PDF]</a></p> -->
-    </td>
+    </div>
+    <img class="profile-photo" src="./files/gary.jpg" width="360" height="480" alt="Photo of Yang Gao">
+</div>
 
-    <td><img src="./files/gary.png" border="0" width="120"></td>
-</tr></tbody></table>
 
+<h2 id="about">About</h2>
+    <p>I am a Member of Technical Staff at <a href="https://mosi.cn/">Mosi Intelligence (MOSI)</a>, focusing on performance optimization for large-scale training and inference systems. As part of the <a href="https://openmoss.ai/">OpenMOSS</a> team, I work on multimodal foundation models across image, video, audio and speech, spanning both understanding and generation.</p>
 
-<h2>About</h2>
-    <p>I am currently a Member of Technical Staff at <a href="https://mosi.cn/">Mosi Intelligence (MOSI)</a>, focusing on performance optimization for large-scale training and inference systems. My work spans multimodal systems including audio/video understanding and generation.</p>
-    
-    <p>Previously, I worked on large language model pre-training at InternLM (<a href="https://internlm.org/">书生-浦语</a>) in Shanghai AI Laboratory. I received Master (2022) and Bachelor (2019) degrees in School of Computer Science and Technology from Northwestern Polytechnical University (NWPU), advised by <a href="https://jszy.nwpu.edu.cn/en/pengwang.html">Prof. Peng Wang</a>.</p>
+    <p>Previously, I worked on large language model pre-training at InternLM (<a href="https://intern-ai.org.cn/">书生·浦语</a>) in Shanghai AI Laboratory. I received my M.S. (2022) and B.S. (2019) degrees from the School of Computer Science and Technology at Northwestern Polytechnical University (NWPU), advised by <a href="https://jszy.nwpu.edu.cn/en/pengwang.html">Prof. Peng Wang</a>.</p>
 
     <p>My research and engineering interests focus on:</p>
     <ul>
-    
-	    <li>
-	        Large-Scale Training Systems
-	    </li>
-	    <li>
-	        High-Performance Inference Systems
-	    </li>
+        <li>Large-Scale Training Systems</li>
+        <li>High-Performance Inference Systems</li>
+        <li>Multimodal Understanding and Generation</li>
+    </ul>
+
+    <p class="hiring"><strong>We are hiring!</strong> We are looking for engineers and researchers interested in AI infrastructure, large-scale training/inference systems, and multimodal foundation models. Feel free to reach out if you are interested in joining us.</p>
+
+
+<h2 id="collaborations">Open-Source Collaborations</h2>
+    <p>OpenMOSS maintains deep, official collaborations with the <a href="https://github.com/sgl-project/sglang">SGLang</a> and <a href="https://github.com/vllm-project/vllm">vLLM</a> teams, bringing first-class serving support for MOSS models to their omni-modal runtimes.</p>
+
+    <div class="partners">
+        <div class="partner">
+            <a class="partner-logo" href="https://github.com/sgl-project/sglang-omni"><img class="logo-sglang" src="./files/sglang_omni.svg" alt="SGLang-Omni"></a>
+            <p>SGLang's high-performance serving runtime for interactive, omni-modal systems.</p>
+            <p class="partner-models">
+                Serves
+                <a href="https://sgl-project.github.io/sglang-omni/cookbook/moss_tts.html">MOSS-TTS</a>,
+                <a href="https://sgl-project.github.io/sglang-omni/cookbook/moss_tts_local.html">MOSS-TTS-Local</a> and
+                <a href="https://sgl-project.github.io/sglang-omni/cookbook/moss_transcribe_diarize.html">MOSS-Transcribe-Diarize</a>
+            </p>
+            <p class="partner-links">
+                <a href="https://github.com/sgl-project/sglang-omni">GitHub</a>
+                <a href="https://sgl-project.github.io/sglang-omni/">Docs</a>
+            </p>
+        </div>
+        <div class="partner">
+            <a class="partner-logo" href="https://github.com/vllm-project/vllm-omni"><img class="logo-vllm" src="./files/vllm_omni.jpg" alt="vLLM-Omni"></a>
+            <p>vLLM's framework for easy, fast and cheap omni-modality model serving.</p>
+            <p class="partner-models">
+                Serves the
+                <a href="https://github.com/vllm-project/vllm-omni/blob/main/recipes/OpenMOSS/MOSS-TTS.md">MOSS-TTS family</a> and
+                <a href="https://github.com/vllm-project/vllm-omni/blob/main/recipes/MOSS-Image/MOSS-Image-Base.md">MOSS-Image</a>
+            </p>
+            <p class="partner-links">
+                <a href="https://github.com/vllm-project/vllm-omni">GitHub</a>
+                <a href="https://docs.vllm.ai/projects/vllm-omni">Docs</a>
+            </p>
+        </div>
+    </div>
+
+    <h3 class="subhead">Featured Posts</h3>
+    <ul class="posts">
         <li>
-	        Audio/Video Understanding and Generation
-	    </li>
-	  
-     </ul>
-
-    <p>We are hiring engineers and researchers interested in AI infrastructure, large-scale training/inference systems, and multimodal foundation models. Please feel free to contact me if you are interested in joining us.</p>
-
-
-<h2>Experiences</h2>
-	<strong>Academia</strong>
-	<ul>
-	<li>[2019.09 - 2022.04] <img style="width: 1em;"src="./files/nwpu.jpeg"> M.S. at Northwestern Polytechnical University (Postgraduate recommendation)</li>
-	<li>[2015.09 - 2019.06] <img style="width: 1em;"src="./files/nwpu.jpeg"> B.S. at Northwestern Polytechnical University</li>
-</ul>
-	
- 	<strong>Industry</strong>
-	<ul>
-    <li>[2022.06 - 2025.06] <img class="company-logo" src="./files/shlab.png" alt="Shanghai AI Laboratory logo"> Shanghai AI Laboratory, Research Engineer on Large Language Model Pre-training</li>
-    <li>[2021.05 - 2022.03] <img class="company-logo" src="./files/sensetime.jpeg" alt="SenseTime logo"> SenseTime Research, Engineer Intern on Automated Machine Learning</li>
-	<li>[2020.12 - 2021.05] <img class="company-logo" src="./files/baidu.png" alt="Baidu logo"> Baidu Research, Research Intern on Light-weight Object Detection</li>
-
-</ul>
+            <span class="post-meta">SGLang Blog · Oct 20, 2026</span>
+            <a href="https://www.sglang.io/blog/omni-interactive-runtime">Unified Runtime for Full-Duplex Interactive Intelligence with SGLang Omni</a>
+            <p>One runtime for native full-duplex models, turn-based multimodal models and cascaded speech systems, built on composable graphs and persistent sessions. On a single H200, an ASR → LLM → TTS cascade reaches 0.17 s mean stop latency on interruption with 16 concurrent sessions.</p>
+        </li>
+        <li>
+            <span class="post-meta">LMSYS Blog · Jun 17, 2026</span>
+            <a href="https://www.lmsys.org/blog/2026-06-17-moss-tts-local-v15">MOSS-TTS Local Transformer v1.5 on SGLang-Omni: Serving Native-Streaming 48 kHz Speech</a>
+            <p>Serving the 48 kHz stereo MOSS-TTS-Local-Transformer-v1.5 as a three-stage pipeline (preprocessing → AR engine → streaming vocoder), with reference-audio caching and CUDA Graph capture for native streaming.</p>
+        </li>
+    </ul>
 
 
-<h2>Selected Publications</h2>
+<h2 id="publications">Selected Publications</h2>
 
-(* denotes equal contributions)<br>
+<div class="pub-group">
+    <h3 class="pub-year">2026</h3>
+    <ul class="pub-list">
+        <li>
+            <div class="pub-title">MOSS-Image Technical Report</div>
+            <div class="pub-desc">A 5B single-stream DiT trained from scratch for bilingual long-text rendering and precise layout control.</div>
+            <div class="pub-authors">OpenMOSS Team</div>
+            <div class="pub-links">
+                <span class="venue">arXiv</span>
+                <a href="https://arxiv.org/abs/2610.23374">Paper</a>
+                <a href="https://github.com/OpenMOSS/MOSS-Image">Code</a>
+                <a href="https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT">Hugging Face</a>
+                <a href="https://openmoss.ai/MOSS-Image/">Project</a>
+            </div>
+        </li>
+        <li>
+            <div class="pub-title">MOSS-VL Technical Report</div>
+            <div class="pub-desc">An open-weight 11B model series for long-form and real-time video understanding.</div>
+            <div class="pub-authors">OpenMOSS Team</div>
+            <div class="pub-links">
+                <span class="venue">arXiv</span>
+                <a href="https://arxiv.org/abs/2608.15045">Paper</a>
+                <a href="https://github.com/OpenMOSS/MOSS-VL">Code</a>
+                <a href="https://huggingface.co/collections/OpenMOSS-Team/moss-vl">Hugging Face</a>
+                <a href="https://openmoss.ai/MOSS-VL/">Project</a>
+            </div>
+        </li>
+        <li>
+            <div class="pub-title">MOSS-Audio Technical Report</div>
+            <div class="pub-desc">Unified understanding of speech, environmental sound and music through captioning, question answering and reasoning.</div>
+            <div class="pub-authors">OpenMOSS Team</div>
+            <div class="pub-links">
+                <span class="venue">arXiv</span>
+                <a href="https://arxiv.org/abs/2606.01802">Paper</a>
+                <a href="https://github.com/OpenMOSS/MOSS-Audio">Code</a>
+                <a href="https://huggingface.co/collections/OpenMOSS-Team/moss-audio">Hugging Face</a>
+                <a href="https://openmoss.ai/MOSS-Audio/">Project</a>
+            </div>
+        </li>
+        <li>
+            <div class="pub-title">MOSS-TTS Technical Report</div>
+            <div class="pub-desc">An open model family for long-form speech, dialogue synthesis, voice design, sound effects and real-time streaming TTS.</div>
+            <div class="pub-authors">OpenMOSS Team</div>
+            <div class="pub-links">
+                <span class="venue">arXiv</span>
+                <a href="https://arxiv.org/abs/2603.18090">Paper</a>
+                <a href="https://github.com/OpenMOSS/MOSS-TTS">Code</a>
+                <a href="https://huggingface.co/OpenMOSS-Team/MOSS-TTS">Hugging Face</a>
+                <a href="https://mosi.cn/models/moss-tts">Project</a>
+            </div>
+        </li>
+        <li>
+            <div class="pub-title">MOVA: Towards Scalable and Synchronized Video-Audio Generation</div>
+            <div class="pub-authors">OpenMOSS Team</div>
+            <div class="pub-links">
+                <span class="venue">arXiv</span>
+                <a href="https://arxiv.org/abs/2602.08794">Paper</a>
+                <a href="https://github.com/OpenMOSS/MOVA">Code</a>
+                <a href="https://huggingface.co/collections/OpenMOSS-Team/mova">Hugging Face</a>
+                <a href="https://mosi.cn/models/mova">Project</a>
+            </div>
+        </li>
+        <li>
+            <div class="pub-title">MOSS-Speech: Towards True Speech-to-Speech Models Without Text Guidance</div>
+            <div class="pub-authors">Xingjian Zhao, Zhe Xu, Qinyuan Cheng, Zhaoye Fei, Luozhijie Jin, Yang Wang, Hanfu Chen, Yaozhou Jiang, Qinghui Gao, Ke Chen, Ruixiao Li, Mingshu Chen, Ruiming Wang, Wenbo Zhang, Yiyang Zhang, Donghua Yu, <strong>Yang Gao</strong>, Xiaogui Yang, Yitian Gong, Yuanfan Xu, Yaqian Zhou, Xuanjing Huang, Xipeng Qiu</div>
+            <div class="pub-links">
+                <span class="venue venue-conf">ICLR 2026</span>
+                <a href="https://openreview.net/forum?id=zjaV5zmlkl">Paper</a>
+                <a href="https://arxiv.org/abs/2510.00499">arXiv</a>
+                <a href="https://github.com/OpenMOSS/MOSS-Speech">Code</a>
+                <a href="https://huggingface.co/collections/OpenMOSS-Team/moss-speech">Hugging Face</a>
+            </div>
+        </li>
+    </ul>
+</div>
 
-<ul><li><p>MOSS-TTS Technical Report<br />
-    OpenMOSS Team<br />
-    <a href='https://arxiv.org/abs/2603.18090'>[paper]</a>
-    <a href='https://github.com/OpenMOSS/MOSS-TTS'>[code]</a>
-    <a href='https://huggingface.co/OpenMOSS-Team/MOSS-TTS'>[huggingface]</a><br>
-</li>
-</ul>
+<div class="pub-group">
+    <h3 class="pub-year">2025</h3>
+    <ul class="pub-list">
+        <li>
+            <div class="pub-title">Intern-S1: A Scientific Multimodal Foundation Model</div>
+            <div class="pub-authors">InternLM Team</div>
+            <div class="pub-links">
+                <span class="venue">arXiv</span>
+                <a href="https://arxiv.org/abs/2508.15763">Paper</a>
+                <a href="https://github.com/InternLM/Intern-S1">Code</a>
+                <a href="https://huggingface.co/internlm/Intern-S1">Hugging Face</a>
+            </div>
+        </li>
+    </ul>
+</div>
 
-<ul><li><p>MOVA: Towards Scalable and Synchronized Video-Audio Generation<br />
-    OpenMOSS Team<br />
-    <a href='https://arxiv.org/abs/2602.08794'>[paper]</a>
-    <a href='https://github.com/OpenMOSS/MOVA'>[code]</a>
-    <a href='https://huggingface.co/collections/OpenMOSS-Team/mova'>[huggingface]</a><br>
-</li>
-</ul>
+<div class="pub-group">
+    <h3 class="pub-year">2024</h3>
+    <ul class="pub-list">
+        <li>
+            <div class="pub-title">InternLM-XComposer-2.5: A Versatile Large Vision Language Model Supporting Long-Contextual Input and Output</div>
+            <div class="pub-authors">Pan Zhang, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Rui Qian, Lin Chen, Qipeng Guo, Haodong Duan, Bin Wang, Linke Ouyang, Songyang Zhang, Wenwei Zhang, Yining Li, <strong>Yang Gao</strong>, Peng Sun, Xinyue Zhang, Wei Li, Jingwen Li, Wenhai Wang, Hang Yan, Conghui He, Xingcheng Zhang, Kai Chen, Jifeng Dai, Yu Qiao, Dahua Lin, Jiaqi Wang</div>
+            <div class="pub-links">
+                <span class="venue">arXiv</span>
+                <a href="https://arxiv.org/abs/2407.03320">Paper</a>
+                <a href="https://github.com/InternLM/InternLM-XComposer">Code</a>
+                <a href="https://huggingface.co/internlm/internlm-xcomposer2d5-7b">Hugging Face</a>
+            </div>
+        </li>
+        <li>
+            <div class="pub-title">Lins: Reducing Communication Overhead of ZeRO for Efficient LLM Training</div>
+            <div class="pub-authors">Qiaoling Chen, Qinghao Hu, Guoteng Wang, Yingtong Xiong, Ting Huang, Xun Chen, <strong>Yang Gao</strong>, Hang Yan, Yonggang Wen, Tianwei Zhang, Peng Sun</div>
+            <div class="pub-links">
+                <span class="venue venue-conf">IWQoS 2024</span>
+                <a href="https://ieeexplore.ieee.org/abstract/document/10682856/">Paper</a>
+            </div>
+        </li>
+        <li>
+            <div class="pub-title">InternLM-XComposer2-4KHD: A Pioneering Large Vision-Language Model Handling Resolutions from 336 Pixels to 4K HD</div>
+            <div class="pub-authors">Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Bin Wang, Linke Ouyang, Songyang Zhang, Haodong Duan, Wenwei Zhang, Yining Li, Hang Yan, <strong>Yang Gao</strong>, Zhe Chen, Xinyue Zhang, Wei Li, Jingwen Li, Wenhai Wang, Kai Chen, Conghui He, Xingcheng Zhang, Jifeng Dai, Yu Qiao, Dahua Lin, Jiaqi Wang</div>
+            <div class="pub-links">
+                <span class="venue venue-conf">NeurIPS 2024</span>
+                <a href="https://arxiv.org/abs/2404.06512">Paper</a>
+                <a href="https://github.com/InternLM/InternLM-XComposer">Code</a>
+                <a href="https://huggingface.co/internlm/internlm-xcomposer2-4khd-7b">Hugging Face</a>
+            </div>
+        </li>
+        <li>
+            <div class="pub-title">InternLM2 Technical Report</div>
+            <div class="pub-authors">InternLM Team</div>
+            <div class="pub-links">
+                <span class="venue">arXiv</span>
+                <a href="https://arxiv.org/abs/2403.17297">Paper</a>
+                <a href="https://github.com/InternLM/InternLM">Code</a>
+                <a href="https://huggingface.co/collections/internlm/internlm2-65b0ce04970888799707893c">Hugging Face</a>
+            </div>
+        </li>
+    </ul>
+</div>
 
-<ul><li><p>Intern-S1: A Scientific Multimodal Foundation Model<br />
-    InternLM Team<br />
-    <a href='https://arxiv.org/abs/2508.15763'>[paper]</a>
-    <a href='https://github.com/InternLM/Intern-S1'>[code]</a>
-    <a href='https://huggingface.co/internlm/Intern-S1'>[huggingface]</a><br>
-</li>
-</ul>
+<div class="pub-group">
+    <h3 class="pub-year">2023</h3>
+    <ul class="pub-list">
+        <li>
+            <div class="pub-title">InternLM: A Multilingual Language Model with Progressively Enhanced Capabilities</div>
+            <div class="pub-authors">InternLM Team</div>
+            <div class="pub-links">
+                <span class="venue">Tech Report</span>
+                <a href="https://github.com/InternLM/InternLM-techreport">Paper</a>
+                <a href="https://github.com/InternLM/InternLM">Code</a>
+                <a href="https://huggingface.co/internlm/internlm-7b">Hugging Face</a>
+            </div>
+        </li>
+    </ul>
+</div>
 
-<ul><li><p>InternLM-XComposer-2.5: A Versatile Large Vision Language Model Supporting Long-Contextual Input and Output<br />
-    Pan Zhang, Xiaoyi Dong, Yuhang Zang, Yuhang Cao, Rui Qian, Lin Chen, Qipeng Guo, Haodong Duan, Bin Wang, Linke Ouyang, Songyang Zhang, Wenwei Zhang, Yining Li, <strong>Yang Gao</strong>, Peng Sun, Xinyue Zhang, Wei Li, Jingwen Li, Wenhai Wang, Hang Yan, Conghui He, Xingcheng Zhang, Kai Chen, Jifeng Dai, Yu Qiao, Dahua Lin, Jiaqi Wang<br />
-    <a href='https://arxiv.org/abs/2407.03320'>[paper]</a >
-	<a href='https://github.com/InternLM/InternLM-XComposer'>[code]</a >
-    <a href='https://huggingface.co/internlm/internlm-xcomposer2d5-7b'>[huggingface]</a><br>
-</li>
-</ul>
-
-	
-<ul><li><p>Lins: Reducing Communication Overhead of ZeRO for Efficient LLM Training<br />
-    Qiaoling Chen, Qinghao Hu, Guoteng Wang, Yingtong Xiong, Ting Huang, Xun Chen, <strong>Yang Gao</strong>, Hang Yan, Yonggang Wen, Tianwei Zhang, Peng Sun<br />
-    IWQoS 2024.
-    <a href='https://ieeexplore.ieee.org/abstract/document/10682856/'>[paper]</a>
-</li>
-</ul>
-
-<ul><li><p>InternLM-XComposer2-4KHD: A Pioneering Large Vision-Language Model Handling Resolutions from 336 Pixels to 4K HD<br />
-    Xiaoyi Dong, Pan Zhang, Yuhang Zang, Yuhang Cao, Bin Wang, Linke Ouyang, Songyang Zhang, Haodong Duan, Wenwei Zhang, Yining Li, Hang Yan, <strong>Yang Gao</strong>, Zhe Chen, Xinyue Zhang, Wei Li, Jingwen Li, Wenhai Wang, Kai Chen, Conghui He, Xingcheng Zhang, Jifeng Dai, Yu Qiao, Dahua Lin, Jiaqi Wang<br />
-    NeurIPS 2024.
-    <a href='https://arxiv.org/abs/2404.06512'>[paper]</a>
-	<a href='https://github.com/InternLM/InternLM-XComposer'>[code]</a>
-	<a href='https://huggingface.co/internlm/internlm-xcomposer2-4khd-7b'>[huggingface]</a><br>
-</li>
-</ul>
-	
-<ul><li><p>InternLM2 Technical Report<br />
-    InternLM Team<br />
-    <a href='https://arxiv.org/abs/2403.17297'>[paper]</a>
-	<a href='https://github.com/InternLM/InternLM'>[code]</a>
-	<a href='https://huggingface.co/collections/internlm/internlm2-65b0ce04970888799707893c'>[huggingface]</a><br>
-</li>
-</ul>
-	
-<ul><li><p>Internlm: A multilingual language model with progressively enhanced capabilities<br />
-    InternLM Team<br />
-    <a href='https://github.com/InternLM/InternLM-techreport'>[paper]</a>
-    <a href='https://github.com/InternLM/InternLM'>[code]</a>
-    <a href='https://huggingface.co/internlm/internlm-7b'>[huggingface]</a><br>
-</li>
-</ul>
-	
-<ul><li><p>NAS-FCOS: Fast neural architecture search for object detection<br />
-    *Ning Wang, <strong>*Yang Gao</strong>, *Hao Chen, Peng Wang, Zhi Tian, Chunhua Shen, Yanning Zhang<br />
-    CVPR 2020.
-    <a href='https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_NAS-FCOS_Fast_Neural_Architecture_Search_for_Object_Detection_CVPR_2020_paper.html'>[paper]</a>
-    <a href='https://github.com/Lausannen/NAS-FCOS'>[code]</a><br>
-</li>
-</ul>
-
-
-<h2>Honors & Awards</h2>
-<ul>
-    <li>
-        <strong>Intern Future Star (Top 5%), SenseTime</strong>, 2021
-    </li>
-    <li>
-        <strong>Outstanding Graduate of Master Students (Top 5%), NWPU</strong>, 2022
-    </li>
-    <li>
-        <strong>Excellent First-class Scholarship for Master Students, NWPU. (Three consecutive years)</strong>, 2020, 2021, 2022
-    </li>
-    <li>
-        <strong>Outstanding Graduate of Bachelor Students (Top 10%), NWPU</strong>, 2019
-    </li>
-    <li>
-        <strong>Excellent First-class Scholarship for Bachelor Students, NWPU</strong>, 2017, 2018
-    </li>
-
-
-</ul>
+<div class="pub-group">
+    <h3 class="pub-year">2020</h3>
+    <ul class="pub-list">
+        <li>
+            <div class="pub-title">NAS-FCOS: Fast Neural Architecture Search for Object Detection</div>
+            <div class="pub-authors">Ning Wang*, <strong>Yang Gao*</strong>, Hao Chen*, Peng Wang, Zhi Tian, Chunhua Shen, Yanning Zhang &nbsp;(* equal contribution)</div>
+            <div class="pub-links">
+                <span class="venue venue-conf">CVPR 2020</span>
+                <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_NAS-FCOS_Fast_Neural_Architecture_Search_for_Object_Detection_CVPR_2020_paper.html">Paper</a>
+                <a href="https://github.com/Lausannen/NAS-FCOS">Code</a>
+            </div>
+        </li>
+    </ul>
+</div>
 
 
+<h2 id="experience">Experience</h2>
+    <h3 class="subhead">Industry</h3>
+    <ul class="timeline">
+        <li><span class="when">2025.07 – Present</span><img src="./files/mosi.svg" alt="MOSI logo"><span><strong>Mosi Intelligence (MOSI)</strong><span class="role">Member of Technical Staff</span></span></li>
+        <li><span class="when">2022.06 – 2025.06</span><img src="./files/shlab.png" alt="Shanghai AI Laboratory logo"><span><strong>Shanghai AI Laboratory</strong><span class="role">Research Engineer, Large Language Model Pre-training</span></span></li>
+        <li><span class="when">2021.05 – 2022.03</span><img src="./files/sensetime.jpeg" alt="SenseTime logo"><span><strong>SenseTime Research</strong><span class="role">Engineering Intern, Automated Machine Learning</span></span></li>
+        <li><span class="when">2020.12 – 2021.05</span><img src="./files/baidu.png" alt="Baidu logo"><span><strong>Baidu Research</strong><span class="role">Research Intern, Lightweight Object Detection</span></span></li>
+    </ul>
+
+    <h3 class="subhead">Academia</h3>
+    <ul class="timeline">
+        <li><span class="when">2019.09 – 2022.04</span><img src="./files/nwpu.jpeg" alt="NWPU logo"><span><strong>Northwestern Polytechnical University</strong><span class="role">M.S. in Computer Science (Postgraduate Recommendation)</span></span></li>
+        <li><span class="when">2015.09 – 2019.06</span><img src="./files/nwpu.jpeg" alt="NWPU logo"><span><strong>Northwestern Polytechnical University</strong><span class="role">B.S. in Computer Science</span></span></li>
+    </ul>
+
+
+<h2 id="honors">Honors &amp; Awards</h2>
+    <ul class="timeline honors">
+        <li><span class="when">2022</span><span><strong>Outstanding Graduate of Master Students</strong> (Top 5%), NWPU</span></li>
+        <li><span class="when">2020, 2021, 2022</span><span><strong>Excellent First-class Scholarship for Master Students</strong> (three consecutive years), NWPU</span></li>
+        <li><span class="when">2021</span><span><strong>Intern Future Star</strong> (Top 5%), SenseTime</span></li>
+        <li><span class="when">2019</span><span><strong>Outstanding Graduate of Bachelor Students</strong> (Top 10%), NWPU</span></li>
+        <li><span class="when">2017, 2018</span><span><strong>Excellent First-class Scholarship for Bachelor Students</strong>, NWPU</span></li>
+    </ul>
+
+</div>
+
+</body>
 </html>
